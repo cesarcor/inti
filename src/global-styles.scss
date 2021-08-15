@@ -1,0 +1,36 @@
+@import "./global-vars.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+ul li,
+ol li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+a,
+button,
+input {
+  outline: none;
+}

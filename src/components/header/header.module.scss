@@ -1,0 +1,48 @@
+@import "../../global-vars.scss";
+
+.site_header {
+  .upper_site_header {
+    border-bottom: 1px solid $gray;
+
+    .container {
+      grid-template-columns: 1fr 1fr;
+
+      .header_form {
+        display: none;
+      }
+
+      @media (min-width: 1024px) {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .header_form {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .lower_site_header {
+    .container {
+      grid-template-columns: 1fr 1fr;
+
+      @media (min-width: 1024px) {
+        grid-template-columns: 100%;
+
+        .header_form {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .upper_site_header,
+  .lower_site_header {
+    padding: 20px 10px;
+  }
+
+  .container {
+    display: grid;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+}
