@@ -7,14 +7,26 @@
     .container {
       grid-template-columns: 1fr 1fr;
 
-      .header_form {
+      .header_form_col {
         display: none;
       }
 
-      @media (min-width: 1024px) {
+      .logo_col {
+        place-self: start;
+      }
+
+      .action_menu_col {
+        place-self: end;
+      }
+
+      @media (min-width: 768px) {
         grid-template-columns: 1fr 1fr 1fr;
 
-        .header_form {
+        .logo_col {
+          place-self: center;
+        }
+
+        .header_form_col {
           display: block;
         }
       }
@@ -23,12 +35,12 @@
 
   .lower_site_header {
     .container {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 4fr 1fr;
 
-      @media (min-width: 1024px) {
+      @media (min-width: 768px) {
         grid-template-columns: 100%;
 
-        .header_form {
+        .header_form_col {
           display: none;
         }
       }
@@ -42,6 +54,7 @@
 
   .container {
     display: grid;
+    gap: 10px;
     max-width: 1024px;
     margin: 0 auto;
   }
