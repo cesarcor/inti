@@ -1,0 +1,52 @@
+@import "../../global-vars.scss";
+
+.hero {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  &_content_col {
+    background: $tan;
+    padding: 10px;
+    width: 100%;
+
+    h1 {
+      font-family: "playfair-display";
+    }
+  }
+
+  &_image_col {
+    overflow: hidden;
+
+    figure,
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    figure {
+      position: relative;
+    }
+
+    img {
+      object-fit: cover;
+      position: absolute;
+    }
+
+    @media (min-width: 768px) {
+      grid-column: 2;
+    }
+  }
+
+  &_image_col,
+  &_image_col img {
+    height: 400px;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    &_content_col,
+    &_image_col {
+      width: 50%;
+    }
+  }
+}
