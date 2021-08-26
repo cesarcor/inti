@@ -23,7 +23,7 @@ const Header = () => {
           <div className={styles.header_form_col}>
             <SearchForm />
           </div>
-          <div>
+          <div className={styles.menu_col}>
             <Menu />
           </div>
         </div>
