@@ -1,0 +1,24 @@
+@import "../../global-vars.scss";
+
+.product_item {
+  .container {
+    .figure,
+    figure img {
+      max-width: 100%;
+    }
+
+    .figure {
+      overflow: hidden;
+
+      img {
+        transform: scale(1.02);
+      }
+    }
+
+    .content {
+      background: $gray;
+      text-align: center;
+      padding: 15px;
+    }
+  }
+}
