@@ -3,14 +3,25 @@
 .hero {
   display: flex;
   flex-wrap: wrap-reverse;
+  max-width: 1215px;
+  margin: 0 auto;
 
   &_content_col {
     background: $tan;
-    padding: 10px;
+    padding: 35px 10px;
     width: 100%;
+    display: flex;
+    align-items: center;
 
-    h1 {
-      font-family: "playfair-display";
+    .content_container {
+      h1 {
+        font-family: "playfair-display";
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin-bottom: 20px;
+      }
     }
   }
 
