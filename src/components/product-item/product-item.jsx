@@ -4,18 +4,25 @@ import styles from "./product-item.module.scss";
 
 const ProductItem = (props) => {
   return (
-    <div className={styles.product_item}>
-      <div className={styles.container}>
-        <figure className={styles.figure}>
-          <img src={temporary} />
-        </figure>
+    <div
+      className={
+        props.price
+          ? `${styles.product_item} ${styles.product_item_complete}`
+          : `${styles.product_item} ${styles.product_item_simplified}`
+      }
+    >
+      <a href="#">
+        <div className={styles.container}>
+          <figure className={styles.figure}>
+            <img src={temporary} />
+          </figure>
 
-        <div className={styles.content}>
-          <a href="#">
+          <div className={styles.content}>
             <h3>{props.product_name}</h3>
-          </a>
+            {props.price && props.price}
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   );
 };

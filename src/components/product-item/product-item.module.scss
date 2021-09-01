@@ -5,6 +5,7 @@
     .figure,
     figure img {
       max-width: 100%;
+      height: 250px;
     }
 
     .figure {
@@ -12,13 +13,37 @@
 
       img {
         transform: scale(1.02);
+        object-fit: cover;
       }
     }
+  }
+}
 
+.product_item_simplified {
+  .content {
+    background: $gray;
+    text-align: center;
+    font-family: "PlayfairDisplay";
+    padding: 20px 0;
+  }
+
+  &:hover {
     .content {
-      background: $gray;
-      text-align: center;
-      padding: 15px;
+      background: $green;
     }
+  }
+}
+
+.product_item_complete {
+  border: 2px solid transparent;
+
+  .content {
+    font-family: "PlayfairDisplay";
+    padding: 15px;
+  }
+
+  &:hover {
+    border: 2px dashed $darkerGray;
+    border-radius: 5px;
   }
 }
