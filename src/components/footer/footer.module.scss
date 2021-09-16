@@ -1,0 +1,17 @@
+@import "../../global-vars.scss";
+
+.site_footer{
+    max-width: 1024px;
+    margin: 0 auto;
+
+    .footer_container{     
+        .col_1,
+        .col_2{
+            padding: 20px 10px;
+        }   
+        
+        .col_1{
+            background: $tan;
+        }
+    }
+}
