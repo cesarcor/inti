@@ -25,11 +25,13 @@
     text-align: center;
     font-family: "PlayfairDisplay";
     padding: 20px 0;
+    transition: 0.3s ease-out all;
   }
 
   &:hover {
     .content {
       background: $green;
+      transition: 0.2s ease-in all;
     }
   }
 }
