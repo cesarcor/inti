@@ -3,9 +3,9 @@ import styles from './layout.module.scss';
 
 const Layout = ({children}) => {
     return (
-        <div className="app-container">
+        <main className={styles.main_container}>
             {children}
-        </div>
+        </main>
     )
 }
 
