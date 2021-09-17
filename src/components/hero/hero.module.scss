@@ -5,6 +5,8 @@
   flex-wrap: wrap-reverse;
   max-width: 1215px;
   margin: 0 auto;
+  min-height: 420px;
+  height: 70vh;
 
   &_content_col {
     background: $tan;
