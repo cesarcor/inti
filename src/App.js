@@ -8,6 +8,7 @@ import ProductList from "./components/product-list/product-list";
 import Heading from "./components/heading/heading";
 import Section from "./components/section/section";
 import ProductCarousel from "./components/product-carousel/product-carousel";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <ProductCarousel />
         </Section>
       </Layout>
+      <Footer />
     </div>
   );
 }
