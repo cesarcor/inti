@@ -1,4 +1,4 @@
-@import "../../global-vars.scss";
+@import '../../global-vars.scss';
 
 .product_item {
   .container {
@@ -14,6 +14,7 @@
       img {
         transform: scale(1.02);
         object-fit: cover;
+        width: 100%;
       }
     }
   }
@@ -23,7 +24,7 @@
   .content {
     background: $gray;
     text-align: center;
-    font-family: "PlayfairDisplay";
+    font-family: 'PlayfairDisplay';
     padding: 20px 0;
     transition: 0.3s ease-out all;
   }
@@ -40,16 +41,15 @@
   border: 2px solid transparent;
   border-radius: 5px;
   transition: ease-out 0.3s all;
-  
-  .figure {
 
+  .figure {
     img {
       border-radius: 5px;
     }
   }
 
   .content {
-    font-family: "PlayfairDisplay";
+    font-family: 'PlayfairDisplay';
     padding: 15px;
   }
 

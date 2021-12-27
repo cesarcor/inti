@@ -1,6 +1,6 @@
-import React from "react";
-import temporary from "../../assets/images/tempimg1.jpg";
-import styles from "./product-item.module.scss";
+import React from 'react';
+import temporary from '../../assets/images/tempimg2.jpg';
+import styles from './product-item.module.scss';
 
 const ProductItem = (props) => {
   return (
@@ -11,7 +11,7 @@ const ProductItem = (props) => {
           : `${styles.product_item} ${styles.product_item_simplified}`
       }
     >
-      <a href="#">
+      <a href='#'>
         <div className={styles.container}>
           <figure className={styles.figure}>
             <img src={temporary} />
