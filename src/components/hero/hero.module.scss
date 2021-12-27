@@ -10,7 +10,7 @@
 
   &_content_col {
     background: $tan;
-    padding: 35px 10px;
+    padding: 15px 10px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -21,10 +21,12 @@
       h1 {
         font-family: "playfair-display";
         margin-bottom: 10px;
+        font-size: clamp(35px, 9vw, 55px);
       }
 
       p {
         margin-bottom: 20px;
+        font-size: clamp(10px, 9vw, 16px);
       }
 
       @media (min-width: 768px) {
