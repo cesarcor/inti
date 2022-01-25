@@ -1,0 +1,10 @@
+<svg width="188px" height="77px" viewBox="0 0 188 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Desktop" transform="translate(-446.000000, -497.000000)" stroke="#1EEDB0" stroke-width="7">
+            <g id="Group-2" transform="translate(450.735317, 501.405807)">
+                <path d="M2.06935612,55.1128273 C41.2265257,42.1222234 72.7265257,32.5791079 96.5693561,26.4834806 C120.412187,20.3878533 147.114283,15.051096 176.675646,10.4732085" id="Line" transform="translate(89.372501, 32.793018) rotate(7.000000) translate(-89.372501, -32.793018) "></path>
+                <polyline id="Line" transform="translate(93.003157, 38.148488) rotate(7.000000) translate(-93.003157, -38.148488) " points="10.2000122 58.6101196 95.7000122 33.4333564 175.806302 17.6868558"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
