@@ -1,4 +1,13 @@
-.btn{
-    text-transform: uppercase;
-    font-weight: 600;
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+
+  span {
+    display: block;
+
+    svg {
+      max-width: 65px;
+      height: 20px;
+    }
+  }
 }
