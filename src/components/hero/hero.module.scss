@@ -1,12 +1,10 @@
-@import "../../global-vars.scss";
+@import '../../global-vars.scss';
 
 .hero {
   display: flex;
   flex-wrap: wrap-reverse;
   max-width: 1215px;
   margin: 0 auto;
-  min-height: 420px;
-  height: 70vh;
 
   &_content_col {
     background: $tan;
@@ -17,9 +15,8 @@
     justify-content: center;
 
     .content_container {
-
       h1 {
-        font-family: "playfair-display";
+        font-family: 'playfair-display';
         margin-bottom: 10px;
         font-size: clamp(35px, 9vw, 55px);
       }
@@ -68,6 +65,7 @@
     &_content_col,
     &_image_col {
       width: 50%;
+      height: 70vh;
     }
   }
 }
