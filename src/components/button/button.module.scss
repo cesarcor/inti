@@ -1,6 +1,7 @@
 .btn {
   text-transform: uppercase;
   font-weight: 600;
+  display: inline-block;
 
   span {
     display: block;
@@ -8,6 +9,14 @@
     svg {
       max-width: 65px;
       height: 20px;
+      transition: all 0.4s ease-out;
+    }
+  }
+
+  &:hover {
+    svg {
+      transform: translateY(-5px);
+      transition: all 0.4s ease;
     }
   }
 }
