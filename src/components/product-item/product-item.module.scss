@@ -2,6 +2,7 @@
 
 .product_item {
   .container {
+    position: relative;
     .figure,
     figure img {
       max-width: 100%;
@@ -27,6 +28,7 @@
     font-family: 'PlayfairDisplay';
     padding: 20px 0;
     transition: 0.3s ease-out all;
+    position: relative;
   }
 
   &:hover {

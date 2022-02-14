@@ -1,6 +1,7 @@
 import React from 'react';
 import temporary from '../../assets/images/tempimg2.jpg';
 import styles from './product-item.module.scss';
+import DiscountBadge from '../discount-badge/discount-badge';
 
 const ProductItem = (props) => {
   return (
@@ -13,6 +14,7 @@ const ProductItem = (props) => {
     >
       <a href='#'>
         <div className={styles.container}>
+          <DiscountBadge />
           <figure className={styles.figure}>
             <img src={temporary} />
           </figure>
