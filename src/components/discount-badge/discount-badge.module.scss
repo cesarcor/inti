@@ -4,23 +4,36 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  border-radius: 100px;
-  z-index: 2;
-  background-color: $green;
-  width: clamp(70px, 100px, 120px);
-  height: clamp(70px, 100px, 120px);
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  span {
-    display: block;
+  &_big {
+    border-radius: 100px;
+    z-index: 2;
+    background-color: $green;
+    width: clamp(70px, 100px, 120px);
+    height: clamp(70px, 100px, 120px);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .discount_badge__content {
+      span {
+        display: block;
+      }
+
+      &__amount {
+        font-family: 'playfair-display';
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
   }
 
-  &__amount {
-    font-family: 'playfair-display';
-    font-size: 20px;
-    font-weight: 800;
+  &_small {
+    position: absolute;
+    border-radius: 15px;
+    background-color: $green;
+    z-index: 2;
+    padding: 5px 10px;
   }
 }
