@@ -1,8 +1,18 @@
-.action_menu{
-    &__list{
-        li{
-            display: inline-block;
-            margin-right: 10px;
+@import '../../global-vars.scss';
+
+.action_menu {
+  &__list {
+    li {
+      display: inline-block;
+      margin-right: 10px;
+
+      a {
+        &:hover {
+          color: $green;
+          transition: color 0.3s ease;
         }
+        transition: color 0.3s ease;
+      }
     }
+  }
 }
