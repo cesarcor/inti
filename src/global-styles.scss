@@ -1,16 +1,27 @@
-@import "./global-vars.scss";
+@import './global-vars.scss';
 
 @font-face {
   font-family: 'playfair-display';
-  src: local('playfair-display'), url(./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf) format('ttf');
+  src: local('playfair-display'),
+    url(./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+      format('ttf');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: local('open-sans'),
+    url(./assets/fonts/Open_Sans/OpenSans-VariableFont_wght.ttf) format('ttf')
+      format('ttf');
 }
 
 * {
   box-sizing: border-box;
 }
 
-body{
+body {
   line-height: 1.5;
+  letter-spacing: 1px;
+  font-family: 'open-sans', sans-serif;
 }
 
 ul,
@@ -45,7 +56,7 @@ input {
   outline: none;
 }
 
-.below_fold_container{
+.below_fold_container {
   max-width: 1024px;
   margin: 0 auto;
 }
