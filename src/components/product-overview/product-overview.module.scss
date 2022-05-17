@@ -1,0 +1,28 @@
+.product_overview_content {
+  display: flex;
+  flex-wrap: wrap;
+
+  .product_overview_description {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .product_overview_img {
+    figure,
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+
+  .product_overview_description,
+  .product_overview_img {
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    grid-column: 2;
+    flex-wrap: nowrap;
+  }
+}
