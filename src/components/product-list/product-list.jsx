@@ -1,16 +1,16 @@
 import React from 'react';
-import styles from './product-list.module.scss';
+import ProductGrid from '../product-grid/product-grid';
 import ProductItem from '../product-item/product-item';
 
 const ProductList = () => {
-    return (
-        <div className={styles.product_list}>
-            <ProductItem product_name='Large plant pot'/>
-            <ProductItem product_name='Large plant pot'/>
-            <ProductItem product_name='Large plant pot'/>
-            <ProductItem product_name='Large plant pot'/>
-        </div>
-    )
-}
+  return (
+    <ProductGrid>
+      <ProductItem product_name='Large plant pot' discount_badge_type='big' />
+      <ProductItem product_name='Large plant pot' discount_badge_type='big' />
+      <ProductItem product_name='Large plant pot' />
+      <ProductItem product_name='Large plant pot' />
+    </ProductGrid>
+  );
+};
 
 export default ProductList;

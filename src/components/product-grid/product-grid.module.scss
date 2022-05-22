@@ -1,0 +1,8 @@
+.product_grid {
+  display: grid;
+  gap: 15px 15px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
