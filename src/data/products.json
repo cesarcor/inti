@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "param_name": "large-flower-pot",
+        "name": "Large Flower Pot",
+        "price": 459,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "",
+        "discount": 15
+    },
+    {
+        "id": 2,
+        "param_name": "ceramix-plant-pot",
+        "name": "Ceramix Plant Pot",
+        "price": 129,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "",
+        "discount": ""
+    },
+    {
+        "id": 3,
+        "param_name": "premium-plant-jar",
+        "name": "Premium Plant Jar",
+        "price": 299,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "",
+        "discount": 15
+    },
+    {
+        "id": 4,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "",
+        "discount": ""
+    }
+]
