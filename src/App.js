@@ -11,7 +11,7 @@ function App() {
 			<Route path='/' element={<Page />}>
 				<Route index element={<Home />} />
 				<Route path='/category/:catid' element={<Category />} />
-				<Route path='product' element={<SingleProduct />} />
+				<Route path='/product/:prodid' element={<SingleProduct />} />
 			</Route>
 		</Routes>
 	);
