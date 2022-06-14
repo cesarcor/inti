@@ -1,16 +1,24 @@
 import React from 'react';
 import ProductGrid from '../product-grid/product-grid';
 import ProductItem from '../product-item/product-item';
+import products from '../../data/products.json';
 
 const ProductList = () => {
-  return (
-    <ProductGrid>
-      <ProductItem product_name='Large plant pot' discount_badge_type='big' />
-      <ProductItem product_name='Large plant pot' discount_badge_type='big' />
-      <ProductItem product_name='Large plant pot' />
-      <ProductItem product_name='Large plant pot' />
-    </ProductGrid>
-  );
+	return (
+		<ProductGrid>
+			{products.map((product) => {
+				if (product.featured) {
+					return (
+						<ProductItem
+							product_name={product.name}
+							discount_badge_type='big'
+							discount={product.discount}
+						/>
+					);
+				}
+			})}
+		</ProductGrid>
+	);
 };
 
 export default ProductList;
