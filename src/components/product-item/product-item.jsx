@@ -2,6 +2,7 @@ import React from 'react';
 import temporary from '../../assets/images/tempimg2.jpg';
 import styles from './product-item.module.scss';
 import DiscountBadge from '../discount-badge/discount-badge';
+import { Link } from 'react-router-dom';
 
 const ProductItem = (props) => {
 	return (
@@ -12,7 +13,7 @@ const ProductItem = (props) => {
 					: `${styles.product_item} ${styles.product_item_simplified}`
 			}
 		>
-			<a href='#'>
+			<Link to={'/product/' + props.param_name}>
 				<div className={styles.container}>
 					{props.discount && (
 						<DiscountBadge
@@ -29,7 +30,7 @@ const ProductItem = (props) => {
 						{props.price && props.price}
 					</div>
 				</div>
-			</a>
+			</Link>
 		</div>
 	);
 };

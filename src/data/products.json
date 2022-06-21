@@ -7,18 +7,18 @@
         "price": 459,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
         "image": "",
-        "category": "",
+        "category": "flower-pot",
         "discount": 15
     },
     {
         "id": 2,
         "param_name": "ceramix-plant-pot",
         "name": "Ceramix Plant Pot",
-        "featured": true,
+        "featured": false,
         "price": 129,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
         "image": "",
-        "category": "",
+        "category": "planter",
         "discount": ""
     },
     {
@@ -29,18 +29,18 @@
         "price": 299,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
         "image": "",
-        "category": "",
+        "category": "flower-pot",
         "discount": 15
     },
     {
         "id": 4,
         "param_name": "acme-hanging-pot",
         "name": "Acme Hanging Pot",
-        "featured": true,
+        "featured": false,
         "price": 199,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
         "image": "",
-        "category": "",
+        "category": "planter",
         "discount": ""
     },
     {
@@ -51,7 +51,161 @@
         "price": 199,
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
         "image": "",
-        "category": "",
+        "category": "flower-pot",
+        "discount": ""
+    },
+    {
+        "id": 6,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "planter",
+        "discount": ""
+    },
+    {
+        "id": 7,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "flower-pot",
+        "discount": ""
+    },
+    {
+        "id": 8,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": true,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "silk-flowers",
+        "discount": ""
+    },
+    {
+        "id": 9,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": true,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "flower-pot",
+        "discount": ""
+    },
+    {
+        "id": 10,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "silk-flowers",
+        "discount": ""
+    },
+    {
+        "id": 11,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "flower-pot",
+        "discount": ""
+    },
+    {
+        "id": 12,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "planter",
+        "discount": ""
+    },
+    {
+        "id": 13,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "planter",
+        "discount": ""
+    },
+    {
+        "id": 14,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "pillars",
+        "discount": ""
+    },
+    {
+        "id": 15,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "pillars",
+        "discount": ""
+    },
+    {
+        "id": 16,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "silk-flowers",
+        "discount": ""
+    },
+    {
+        "id": 17,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "silk-flowers",
+        "discount": ""
+    },
+    {
+        "id": 18,
+        "param_name": "acme-hanging-pot",
+        "name": "Acme Hanging Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "silk-flowers",
+        "discount": ""
+    },
+    {
+        "id": 19,
+        "param_name": "cherry-pot",
+        "name": "Cherry Pot",
+        "featured": false,
+        "price": 199,
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id dolor eget nunc euismod egestas. Sed euismod, nisi eu euismod consectetur, nisl nisi consectetur nisi, euismod egestas nisi nisi euismod.",
+        "image": "",
+        "category": "pillars",
         "discount": ""
     }
 ]

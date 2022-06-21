@@ -10,6 +10,8 @@ const ProductList = () => {
 				if (product.featured) {
 					return (
 						<ProductItem
+							key={product.id}
+							param_name={product.param_name}
 							product_name={product.name}
 							discount_badge_type='big'
 							discount={product.discount}
