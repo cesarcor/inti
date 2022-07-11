@@ -22,14 +22,27 @@ const Guarantee = () => {
 			<div className={styles.guarantee__text}>
 				<Heading text='Our Guarantees' />
 				<p>
-					Lorem ipsum doloret et min delaru r gjjr congiani de la musa funcione
-					maputo johanesburg kampala addis abababa.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue
+					orci, tempus a laoreet a, facilisis vel nisi. Quisque ultrices maximus
+					ex, at dignissim lacus aliquet sit amet.
 				</p>
 				<ul className={styles.guarantee_list}>
-					<li>Guarantee 1</li>
-					<li>Guarantee 1</li>
-					<li>Guarantee 1</li>
-					<li>Guarantee 1</li>
+					<li className={styles.guarantee_list__item}>
+						<span className={styles.guarantee_check}>✓</span>{' '}
+						<span>Laoreet a, facilisis vel nisi.</span>
+					</li>
+					<li className={styles.guarantee_list__item}>
+						<span className={styles.guarantee_check}>✓</span>{' '}
+						<span>liquam augue orci, tempus a laoreet a</span>
+					</li>
+					<li className={styles.guarantee_list__item}>
+						<span className={styles.guarantee_check}>✓</span>{' '}
+						<span>Quisque ultrices maximus ex</span>
+					</li>
+					<li className={styles.guarantee_list__item}>
+						<span className={styles.guarantee_check}>✓</span>{' '}
+						<span>at dignissim lacus aliquet sit amet</span>
+					</li>
 				</ul>
 			</div>
 		</div>

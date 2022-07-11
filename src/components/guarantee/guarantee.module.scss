@@ -62,8 +62,12 @@
 		}
 
 		.guarantee_list {
-			li {
+			&__item {
 				margin-bottom: 10px;
+
+				.guarantee_check {
+					color: $green;
+				}
 			}
 		}
 	}
