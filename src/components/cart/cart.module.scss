@@ -24,7 +24,7 @@
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-color: $white;
+	background-color: $tan;
 	z-index: 2;
 	box-shadow: 0px 3px 4px rgba(#000000, 0.1);
 	display: flex;
@@ -32,31 +32,64 @@
 	align-items: center;
 
 	&__header {
-		margin: 20px 0;
+		margin: 25px 0;
 		.close_btn {
 			background-color: transparent;
 			border: none;
 			outline: none;
 			cursor: pointer;
+
+			&:hover {
+				color: $red;
+			}
 		}
 	}
 
 	&__list {
 		width: 100%;
+		padding: 0 10px;
+
 		.cart_item {
 			display: flex;
 			width: 100%;
 			gap: 10px;
+			margin: 20px 0;
+
+			&__fig {
+				width: 35%;
+
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+				}
+			}
+
 			&__info {
-				h3 {
-					font-size: clamp(12px, 9vw, 16px);
-					margin-bottom: 10px;
+				width: 65%;
+
+				.item_info {
+					&_title {
+						font-size: clamp(12px, 9vw, 16px);
+						margin-bottom: 5px;
+						font-family: 'playfair-display';
+					}
+
+					&_description {
+						font-size: clamp(10px, 9vw, 14px);
+						margin-bottom: 15px;
+					}
+
+					&_price {
+						font-weight: bold;
+					}
 				}
 			}
 		}
 	}
 
 	@media (min-width: 768px) {
-		width: 30%;
+		width: 40%;
 	}
 }

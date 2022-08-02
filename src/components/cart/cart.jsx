@@ -34,21 +34,27 @@ const CartPanel = (props) => {
 			</div>
 			<div className={styles.cart_panel__list}>
 				<article className={styles.cart_item}>
-					<div className={styles.cart_item__image}>
+					<figure className={styles.cart_item__fig}>
 						<img src='https://via.placeholder.com/150' alt='' />
-					</div>
+					</figure>
 					<div className={styles.cart_item__info}>
-						<h3>Product Name</h3>
-						<p>$100</p>
+						<h3 className={styles.item_info_title}>Product Name</h3>
+						<p className={styles.item_info_description}>
+							Lorem ipsum doloret et min delarus concabit fora
+						</p>
+						<span className={styles.item_info_price}>$100</span>
 					</div>
 				</article>
 				<article className={styles.cart_item}>
-					<div className={styles.cart_item__image}>
+					<figure className={styles.cart_item__fig}>
 						<img src='https://via.placeholder.com/150' alt='' />
-					</div>
+					</figure>
 					<div className={styles.cart_item__info}>
-						<h3>Product Name</h3>
-						<p>$100</p>
+						<h3 className={styles.item_info_title}>Product Name</h3>
+						<p className={styles.item_info_description}>
+							Lorem ipsum doloret et min delarus concabit fora
+						</p>
+						<span className={styles.item_info_price}>$100</span>
 					</div>
 				</article>
 			</div>
