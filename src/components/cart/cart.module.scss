@@ -50,6 +50,32 @@
 		padding: 0 10px;
 	}
 
+	&__footer {
+		text-align: center;
+
+		.price_info {
+			margin: 25px 0;
+		}
+
+		.checkout_btn {
+			background-color: transparent;
+			display: block;
+			color: $black;
+			border: 1px solid $green;
+			outline: none;
+			cursor: pointer;
+			padding: 10px 50px;
+			font-size: clamp(12px, 9vw, 16px);
+			font-family: 'playfair-display';
+			font-weight: bold;
+			transition: background-color 0.3s ease;
+
+			&:hover {
+				background-color: $green;
+			}
+		}
+	}
+
 	@media (min-width: 768px) {
 		width: 40%;
 	}

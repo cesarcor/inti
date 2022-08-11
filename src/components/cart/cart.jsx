@@ -37,6 +37,13 @@ const CartPanel = (props) => {
 				<CartItem />
 				<CartItem />
 			</div>
+			<div className={styles.cart_panel__footer}>
+				<div className={styles.price_info}>
+					<span>Total: </span>
+					<span>$99.99</span>
+				</div>
+				<button className={styles.checkout_btn}>Checkout</button>
+			</div>
 		</div>
 	);
 };
