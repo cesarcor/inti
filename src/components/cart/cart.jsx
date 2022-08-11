@@ -2,6 +2,7 @@ import { React, Fragment, useState } from 'react';
 import styles from './cart.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import CartItem from '../cart-item/cart-item';
 
 const Cart = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -33,30 +34,8 @@ const CartPanel = (props) => {
 				</button>
 			</div>
 			<div className={styles.cart_panel__list}>
-				<article className={styles.cart_item}>
-					<figure className={styles.cart_item__fig}>
-						<img src='https://via.placeholder.com/150' alt='' />
-					</figure>
-					<div className={styles.cart_item__info}>
-						<h3 className={styles.item_info_title}>Product Name</h3>
-						<p className={styles.item_info_description}>
-							Lorem ipsum doloret et min delarus concabit fora
-						</p>
-						<span className={styles.item_info_price}>$100</span>
-					</div>
-				</article>
-				<article className={styles.cart_item}>
-					<figure className={styles.cart_item__fig}>
-						<img src='https://via.placeholder.com/150' alt='' />
-					</figure>
-					<div className={styles.cart_item__info}>
-						<h3 className={styles.item_info_title}>Product Name</h3>
-						<p className={styles.item_info_description}>
-							Lorem ipsum doloret et min delarus concabit fora
-						</p>
-						<span className={styles.item_info_price}>$100</span>
-					</div>
-				</article>
+				<CartItem />
+				<CartItem />
 			</div>
 		</div>
 	);
