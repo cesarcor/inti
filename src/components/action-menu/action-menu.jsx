@@ -1,11 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './action-menu.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-	faUserCircle,
-	faHeart,
-	faShoppingBag,
-} from '@fortawesome/free-solid-svg-icons';
+import { faUserCircle, faHeart } from '@fortawesome/free-solid-svg-icons';
 import Cart from '../cart/cart';
 
 const ActionMenu = () => {
@@ -13,9 +10,9 @@ const ActionMenu = () => {
 		<div className={styles.action_menu}>
 			<ul className={styles.action_menu__list}>
 				<li>
-					<a href='#'>
+					<Link to='/login'>
 						<FontAwesomeIcon icon={faUserCircle} />
-					</a>
+					</Link>
 				</li>
 				<li>
 					<a href='#'>
