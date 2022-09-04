@@ -1,12 +1,12 @@
 import { React, Fragment } from 'react';
 import '../../global-styles.scss';
-import Layout from '../../components/layout/layout';
-import Hero from '../../components/hero/hero';
-import ProductList from '../../components/product-list/product-list';
-import Heading from '../../components/heading/heading';
-import Section from '../../components/section/section';
-import Guarantee from '../../components/guarantee/guarantee';
-import ProductCarousel from '../../components/product-carousel/product-carousel';
+import Layout from '../../components/layout-comps/layout/layout';
+import Hero from '../../components/misc-comps/hero/hero';
+import ProductList from '../../components/product-listing/product-list/product-list';
+import Heading from '../../components/misc-comps/heading/heading';
+import Section from '../../components/layout-comps/section/section';
+import Guarantee from '../../components/misc-comps/guarantee/guarantee';
+import ProductCarousel from '../../components/product-listing/product-carousel/product-carousel';
 
 function Home() {
 	return (

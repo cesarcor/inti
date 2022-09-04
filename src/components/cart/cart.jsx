@@ -34,7 +34,7 @@ const CartPanel = (props) => {
 				</button>
 			</div>
 			<div className={styles.cart_panel__list}>
-				<CartItem />
+				<p>Your cart is empty</p>
 				<CartItem />
 			</div>
 			<div className={styles.cart_panel__footer}>

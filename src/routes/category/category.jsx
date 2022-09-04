@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../components/layout/layout';
-import Section from '../../components/section/section';
-import Heading from '../../components/heading/heading';
-import ProductGrid from '../../components/product-grid/product-grid';
-import ProductItem from '../../components/product-item/product-item';
+import Layout from '../../components/layout-comps/layout/layout';
+import Section from '../../components/layout-comps/section/section';
+import Heading from '../../components/misc-comps/heading/heading';
+import ProductGrid from '../../components/product-listing/product-grid/product-grid';
+import ProductItem from '../../components/product-listing/product-item/product-item';
 import products from '../../data/products.json';
 import { useParams } from 'react-router-dom';
 import { param_to_readable } from '../../utils/param-to-readable';

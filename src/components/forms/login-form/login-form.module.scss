@@ -1,0 +1,47 @@
+@import '../../../global-vars.scss';
+
+.login_form {
+	background-color: $tan;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+
+	&__section {
+		margin-bottom: 25px;
+
+		.login_form_label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		.login_form_field {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid $black;
+
+			&:focus {
+				border: 1px solid $green;
+			}
+		}
+
+		.login_form_button {
+			background: transparent;
+			outline: none;
+			border: 1px solid $green;
+			cursor: pointer;
+			width: 100%;
+			padding: 10px 25px;
+			transition: 0.3s ease-in-out;
+
+			&:hover {
+				background-color: $green;
+				color: $white;
+				transition: 0.3s ease-in-out;
+			}
+		}
+	}
+
+	@media (min-width: 768px) {
+		width: 50%;
+	}
+}

@@ -1,0 +1,19 @@
+@import '../../../global-vars.scss';
+
+.variation_color {
+	b {
+		font-family: 'playfair display', serif;
+	}
+
+	.variation_container {
+		margin: 10px 0;
+		.variation_btn {
+			border: 1px solid #000;
+			border-radius: 5px;
+			background: transparent;
+			cursor: pointer;
+			padding: 10px 20px;
+			margin-right: 10px;
+		}
+	}
+}

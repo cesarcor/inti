@@ -1,0 +1,55 @@
+@import '../../../global-vars.scss';
+
+.add_to_cart {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 1rem;
+
+	&__col {
+		flex-grow: 1;
+	}
+
+	.number_input {
+		&__value {
+			width: 50px;
+			height: 30px;
+			background: transparent;
+			border: none;
+			text-align: center;
+		}
+
+		&__decrement,
+		&__increment {
+			width: 30px;
+			height: 30px;
+			background: transparent;
+			border: none;
+			cursor: pointer;
+
+			&:hover {
+				background: $darkerTan;
+			}
+		}
+	}
+
+	&_btn {
+		background: $green;
+		border-radius: 4px;
+		font-family: 'playfair-display';
+		font-size: clamp(10px, 19vw, 14px);
+		color: #000000;
+		letter-spacing: 0.74px;
+		text-align: center;
+		padding: 10px 20px;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+
+		&:hover {
+			background: #10e3a4;
+		}
+	}
+}

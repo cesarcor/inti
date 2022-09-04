@@ -1,0 +1,24 @@
+@import '../../../global-vars.scss';
+
+.footer_menu_list {
+	li {
+		&:not(:last-of-type) {
+			margin-bottom: 25px;
+		}
+
+		a {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		@media (min-width: 769px) {
+			display: inline-block;
+			margin: 0 15px;
+
+			&:not(:last-of-type) {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

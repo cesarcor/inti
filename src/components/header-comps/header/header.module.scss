@@ -1,0 +1,73 @@
+@import '../../../global-vars.scss';
+
+.site_header {
+	.upper_site_header {
+		border-bottom: 1px solid $gray;
+
+		.container {
+			grid-template-columns: 1fr 1fr;
+
+			.header_form_col {
+				display: none;
+				position: relative;
+			}
+
+			.logo_col {
+				place-self: start;
+				font-family: 'playfair-display';
+				font-weight: 700;
+			}
+
+			.action_menu_col {
+				place-self: end;
+			}
+
+			@media (min-width: 768px) {
+				grid-template-columns: 1fr 1fr 1fr;
+
+				.logo_col {
+					place-self: center;
+				}
+
+				.header_form_col {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.lower_site_header {
+		.container {
+			position: relative;
+			grid-template-columns: 4fr 1fr;
+
+			.menu_col {
+				place-self: end;
+			}
+
+			@media (min-width: 768px) {
+				grid-template-columns: 100%;
+
+				.header_form_col {
+					display: none;
+				}
+
+				.menu_col {
+					place-self: normal;
+				}
+			}
+		}
+	}
+
+	.upper_site_header,
+	.lower_site_header {
+		padding: 20px 10px;
+	}
+
+	.container {
+		display: grid;
+		gap: 10px;
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+}

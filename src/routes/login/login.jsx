@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../../components/layout/layout';
-import Section from '../../components/section/section';
-import Heading from '../../components/heading/heading';
-import LoginForm from '../../components/login-form/login-form';
+import Layout from '../../components/layout-comps/layout/layout';
+import Section from '../../components/layout-comps/section/section';
+import Heading from '../../components/misc-comps/heading/heading';
+import LoginForm from '../../components/forms/login-form/login-form';
 
 const Login = () => {
 	return (

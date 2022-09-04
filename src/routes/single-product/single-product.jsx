@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './single-product.module.scss';
-import Layout from '../../components/layout/layout';
-import ProductDetail from '../../components/product-detail/product-detail';
-import ProductOverview from '../../components/product-overview/product-overview';
-import RelatedProducts from '../../components/related-products/related-products';
-import Section from '../../components/section/section';
+import Layout from '../../components/layout-comps/layout/layout';
+import ProductDetail from '../../components/product-single/product-detail/product-detail';
+import ProductOverview from '../../components/product-single/product-overview/product-overview';
+import RelatedProducts from '../../components/product-single/related-products/related-products';
+import Section from '../../components/layout-comps/section/section';
 import { useParams } from 'react-router-dom';
 
 const SingleProduct = () => {

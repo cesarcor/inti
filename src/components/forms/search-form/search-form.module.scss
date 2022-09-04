@@ -1,0 +1,65 @@
+@import '../../../global-vars.scss';
+
+.search_form {
+	width: 100%;
+	position: relative;
+
+	input {
+		width: 100%;
+		border: none;
+		border-bottom: 1px solid black;
+		padding: 10px 10px 10px 20px;
+	}
+
+	.submit_btn {
+		position: absolute;
+		top: 10px;
+		left: -5px;
+		background: transparent;
+		border: none;
+	}
+}
+
+.search_list_container {
+	position: absolute;
+	background-color: $white;
+	width: 100%;
+	z-index: 2;
+	box-shadow: 0px 3px 4px rgba(#000000, 0.1);
+
+	.search_list {
+		&__item {
+			&:not(:first-of-type) {
+				border-top: 1px solid $green;
+			}
+			.search_item {
+				display: flex;
+				column-gap: 10px;
+
+				&__fig {
+					width: 50%;
+
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						display: block;
+					}
+				}
+
+				&__content {
+					padding: 10px 0;
+					font-size: clamp(10px, 9vw, 12px);
+
+					p {
+						margin-bottom: 10px;
+					}
+				}
+
+				&:hover {
+					background-color: $green;
+				}
+			}
+		}
+	}
+}
