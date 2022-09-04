@@ -1,13 +1,19 @@
+@import '../../global-vars.scss';
+
 .heading {
-  text-align: center;
-  margin-bottom: 20px;
+	text-align: center;
+	margin: 50px 0 20px 0;
+	font-family: 'playfair-display';
+	font-size: clamp(20px, 9vw, 35px);
 
-  span {
-    display: block;
+	span {
+		display: block;
 
-    svg {
-      width: 112px;
-      height: 28px;
-    }
-  }
+		svg {
+			width: 112px;
+			height: 28px;
+			position: relative;
+			top: -10px;
+		}
+	}
 }
